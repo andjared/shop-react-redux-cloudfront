@@ -1,14 +1,14 @@
-import React from "react";
+import AccountCircle from "@mui/icons-material/AccountCircle";
 import AppBar from "@mui/material/AppBar";
+import IconButton from "@mui/material/IconButton";
+import Link from "@mui/material/Link";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import AccountCircle from "@mui/icons-material/AccountCircle";
-import MenuItem from "@mui/material/MenuItem";
-import Menu from "@mui/material/Menu";
-import Cart from "~/components/MainLayout/components/Cart";
+import React from "react";
 import { Link as RouterLink } from "react-router-dom";
-import Link from "@mui/material/Link";
+import Cart from "~/components/MainLayout/components/Cart";
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store!
+            Book Store!
           </Link>
         </Typography>
 

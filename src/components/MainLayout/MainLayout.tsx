@@ -1,16 +1,16 @@
-import React from "react";
-import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
-import Container from "@mui/material/Container";
-import Header from "~/components/MainLayout/components/Header";
 import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import React from "react";
+import Header from "~/components/MainLayout/components/Header";
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://material-ui.com/" underline="hover">
-        My Store
+        Book Store
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
