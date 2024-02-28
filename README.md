@@ -70,4 +70,4 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
 
-S3-website link: http://my-bucket-task2.s3-website-eu-west-1.amazonaws.com/
+S3-website link: https://my-bucket-task2.s3.eu-west-1.amazonaws.com/index.html
