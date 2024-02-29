@@ -71,3 +71,10 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
 
 S3-website link: https://my-bucket-task2.s3.eu-west-1.amazonaws.com/index.html
+
+GET endpoint for getProductsList: https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products
+
+GET endpoint for getProductById https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products/%{productId},
+example: https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products/7567ec4b-b10c-48c5-9345-fc73c48a80a3
+
+POST endpoint for createProductsList: https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products
