@@ -78,3 +78,7 @@ GET endpoint for getProductById https://e49oj0qmqc.execute-api.eu-west-1.amazona
 example: https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products/7567ec4b-b10c-48c5-9345-fc73c48a80a3
 
 POST endpoint for createProductsList: https://e49oj0qmqc.execute-api.eu-west-1.amazonaws.com/products
+
+GET  import service API: https://baqoiexga8.execute-api.eu-west-1.amazonaws.com/import
+
+
