@@ -36,14 +36,17 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
       });
 
       // Get the presigned URL
-      console.log("Uploading to: ", response.data);
+      console.log("Uploading to: ", response.data.data);
 
-      // const result = await fetch(response.data, {
-      // 	method: 'PUT',
-      // 	body: file,
-      // });
-      // console.log('Result: ', result);
-      // setFile(undefined);
+      const presignedUrl = response.data.data;
+      console.log(presignedUrl);
+
+      const result = await fetch(presignedUrl, {
+        method: "PUT",
+        body: file,
+      });
+      console.log("Result: ", result);
+      setFile(undefined);
     }
   };
   return (
